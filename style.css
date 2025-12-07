@@ -1,0 +1,22 @@
+:root{
+    --netflix-red:#e50914;
+    --bg-dark:#000000;
+    --text-gray:#b3b3b3;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: sans-serif;
+    background: var(--bg-dark);
+    color:#ffffff;
+}
+
+.header{
+    position:relative;
+    min-height: 100vh;
+}
