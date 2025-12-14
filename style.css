@@ -19,4 +19,12 @@ body{
 .header{
     position:relative;
     min-height: 100vh;
+    color:#ffffff;
+    background:radial-gradient(
+            circle at top,
+            rgba(0,0,0,0.1) 0%,
+            rgba(0,0,0,0.6) 60%,
+            #000 100%
+        ),
+        url("images/header.PNG") center / cover no-repeat;
 }
