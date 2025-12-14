@@ -16,6 +16,9 @@ body{
     color:#ffffff;
 }
 
+
+ /* HEADER & NAVBAR */
+
 .header{
     position:relative;
     min-height: 100vh;
@@ -27,4 +30,79 @@ body{
             #000 100%
         ),
         url("images/header.PNG") center / cover no-repeat;
+}
+
+.nav{
+    position:relative;
+    z-index:2;
+    padding:1.5rem 3.5rem;
+}
+
+
+.nav-inner{
+    max-width: 1200px;
+    margin:0 auto;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+/* .logo{
+    height:36px;
+} */
+
+
+
+.btn-signin{
+    background: var(--netflix-red);
+    color:#ffffff;
+    padding:0.45rem 1rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+/* HERO SECTION */
+
+.hero{
+    position:relative;
+    min-height:calc(100vh-80px);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding:3rem 1.5rem 5rem;
+}
+
+
+.hero-overlay{
+    position:absolute;
+    inset:0;
+    background: radial-gradient(circle at top,transparent 0, rgba(0,0,0,0.6) 45%, #000 100%);
+}
+
+.hero-content{
+    position:relative;
+    max-height: 950px;
+    text-align:center;
+    z-index:1;
+}
+
+
+.hero-content h1{
+    font-size: clamp(2.5rem,4vw + 1rem,3.5rem);
+    font-weight: 900;
+    margin-bottom: 0.75rem;
+}
+
+
+.hero-content h2{
+    font-size:1.5rem;
+    font-weight:400;
+    margin-bottom: 0.75rem;
+}
+
+.hero-content p{
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
 }
