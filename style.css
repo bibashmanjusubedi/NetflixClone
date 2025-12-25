@@ -154,5 +154,36 @@ body{
 }
 
 
+.form-message{
+    margin-top:0.75rem;
+    font-size: 0.95rem;
+    color:var(--text-gray);
+}
 
+
+/* FAQ Section*/
+.faq{
+    border-top:8px solid #222;
+    background: #000;
+    color:#fff;
+    padding:4 rem 1.5rem;
+}
+
+.faq-inner{
+    max-width: 950px;
+    margin:0 auto;
+}
+
+
+.section-title{
+    font-size:2rem;
+    font-weight:700;
+    margin-bottom:1.5rem;
+}
+
+
+.faq-list{
+    list-style:none;
+    margin-bottom:2rem;
+}
 
