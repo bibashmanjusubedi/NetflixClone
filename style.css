@@ -30,6 +30,7 @@ body{
             #000 100%
         ),
         url("images/header.PNG") center / cover no-repeat;
+    overflow:hidden;
 }
 
 .nav{
@@ -72,6 +73,7 @@ body{
     align-items: center;
     justify-content: center;
     padding:3rem 1.5rem 5rem;
+    z-index:1;
 }
 
 
@@ -159,4 +161,23 @@ body{
     font-size: 0.95rem;
     color:var(--text-gray);
 }
+
+
+/* Concave Curve */
+.header::after{
+    content:"";
+    position:absolute;
+    left:50%;
+    bottom:0;                 /* sit on the bottom edge */
+    transform:translateX(-50%);
+    width:140%;
+    height:100px;
+    background:
+        radial-gradient(ellipse at bottom,
+            rgba(255,15,79,0.9) 0%,   /* bright pink */
+            #e50914 40%,             /* Netflix red */
+            transparent 70%);
+    z-index: 0;
+}
+
 
