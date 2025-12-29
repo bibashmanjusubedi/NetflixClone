@@ -131,7 +131,7 @@ body{
 }
 
 
-.hero-form::placeholder{
+.hero-form input::placeholder{
     color:#8c8c8c;
 }
 
