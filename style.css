@@ -197,8 +197,7 @@ main{
 
 .trending-row{
     display:flex;
-    overflow-x:auto;
-    gap:1rem;
+    gap:2rem;
     padding:1rem 0;
     scroll-snap-type:x mandatory;
     scrollbar-width:none; /*Firefox*/
@@ -224,7 +223,7 @@ main{
     position:absolute;
     bottom:0.75rem;
     left:-1.5rem;
-    color:red;
+    color:black;
     font-weight: 900;
     font-size:5rem;
     padding: 0.5rem 0.75rem;
@@ -233,7 +232,7 @@ main{
     text-shadow:0 1px 3px rgba(0,0,0,0.9);
     min-width:2.5rem;
     text-align: center;
-    font-family:'Helvetica Neaue', Arial, sans-serif;
+    font-family:sans-serif;
     overflow:visible;
     -webkit-text-stroke: 0.25rem  white;
 }
@@ -271,4 +270,12 @@ main{
     white-space: nowrap;
     overflow:hidden;
     text-overflow:ellipsis;
+}
+
+
+.poster-placeholder#strangerThings{
+    background-image:url('images/strangerThings.jpg');
+    background-size: cover;
+    background-position:center;
+    overflow:visible;
 }
