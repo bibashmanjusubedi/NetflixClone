@@ -279,3 +279,25 @@ main{
     background-position:center;
     overflow:visible;
 }
+
+.poster-placeholder#jollyLLB3{
+    background-image:url('images/jollyLLB3.jpg');
+    background-size: cover;
+    background-position:center;
+    overflow:visible;
+}
+
+
+.poster-placeholder#kapil{
+    background-image:url('images/kapil.jfif');
+    background-size: cover;
+    background-position:center;
+    overflow:visible;
+}
+
+.poster-placeholder#singlePapa{
+    background-image:url('images/singlePapa.jpg');
+    background-size: cover;
+    background-position:center;
+    overflow:visible;
+}
