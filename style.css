@@ -206,7 +206,7 @@ main{
     scroll-snap-type:x mandatory;
     scrollbar-width:none; /*Firefox*/
     -ms-overflow-style:none; /* IE/Edge */
-    overflow:hidden;
+    overflow-x:auto;
     width:100%;
     box-sizing: border-box;
 }
