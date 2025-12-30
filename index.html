@@ -40,31 +40,64 @@
     <main>
         <section class="trending">
             <h2>Trending Now</h2>
-            <div class="trending-row">
-                <div class="movie-poster">
-                    <span class="rank">1</span>
-                    <div class="poster-placeholder" data-title="Stranger Things" id="strangerThings"></div>
-                </div>
-                <div class="movie-poster">
-                    <span class="rank">2</span>
-                    <div class="poster-placeholder" data-title="Jolly LLB3" id="jollyLLB3"></div>
-                </div>
-                <div class="movie-poster">
-                    <span class="rank">3</span>
-                    <div class="poster-placeholder" data-title="The Great Indian Kapil Show" id="kapil"></div>
-                </div>
-                <div class="movie-poster">
-                    <span class="rank">4</span>
-                    <div class="poster-placeholder" data-title="Single Papa" id="singlePapa"></div>
+            <!-- slider container -->
+            <div class="trending-container">
+                <button class="slider-control prev" aria-label="Scroll left">&lt;</button>
+
+                <!--the scrolling row (keeps same markup for movie-poster items) -->
+                <div class="trending-row" role="list" tabindex="0" aria-label="Trending titles">
+                    <div class="movie-poster" role="listitem">
+                        <span class="rank">1</span>
+                        <div class="poster-placeholder" data-title="Stranger Things" id="strangerThings"></div>
+                    </div>
+                    <div class="movie-poster" role="listitem">
+                        <span class="rank">2</span>
+                        <div class="poster-placeholder" data-title="Jolly LLB3" id="jollyLLB3"></div>
+                    </div>
+                    <div class="movie-poster" role="listitem">
+                        <span class="rank">3</span>
+                        <div class="poster-placeholder" data-title="The Great Indian Kapil Show" id="kapil"></div>
+                    </div>
+                    <div class="movie-poster" role="listitem">
+                        <span class="rank">4</span>
+                        <div class="poster-placeholder" data-title="Single Papa" id="singlePapa"></div>
+                    </div>
+    
+                    <div class="movie-poster" role="listitem">
+                        <span class="rank">5</span>
+                        <div class="poster-placeholder" data-title="The Great Flood" id="theGreatFlood"></div>
+                    </div>
+
+                    <!-- add more posters as needed -->
+                    <div class="movie-poster" role="listitem">
+                        <span class="rank">6</span>
+                        <div class="poster-placeholder" data-title="More Title" id="more1"></div>
+                    </div>
+                    <div class="movie-poster" role="listitem">
+                        <span class="rank">7</span>
+                        <div class="poster-placeholder" data-title="More Title 2" id="more2"></div>
+                    </div>
+
+                    <div class="movie-poster" role="listitem">
+                        <span class="rank">8</span>
+                        <div class="poster-placeholder" data-title="More Title 3" id="more3"></div>
+                    </div>
+
+                    <div class="movie-poster" role="listitem">
+                        <span class="rank">9</span>
+                        <div class="poster-placeholder" data-title="More Title 4" id="more2"></div>
+                    </div>
+                    
+                    <div class="movie-poster" role="listitem">
+                        <span class="rank">10</span>
+                        <div class="poster-placeholder" data-title="More Title 5" id="more2"></div>
+                    </div>
+                    
                 </div>
 
-                <div class="movie-poster">
-                    <span class="rank">5</span>
-                    <div class="poster-placeholder" data-title="The Great Flood" id="theGreatFlood"></div>
-                </div>
-
-                
+                <button class="slider-control next" aria-label="Scroll right">&gt;</button>
             </div>
+
         </section>
 
 

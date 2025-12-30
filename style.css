@@ -2,6 +2,9 @@
     --netflix-red:#e50914;
     --bg-dark:#000000;
     --text-gray:#b3b3b3;
+    --control-bg:rgba(0,0,0,0.45);
+    --control-size:48px;
+    --poster-gap:1.5rem;
 }
 
 *{
@@ -187,6 +190,7 @@ main{
     max-width: 1200px;
     margin:0 auto;
     padding:2rem 3.5rem 3rem;
+    position:relative;
 }
 
 
@@ -202,6 +206,7 @@ main{
     scroll-snap-type:x mandatory;
     scrollbar-width:none; /*Firefox*/
     -ms-overflow-style:none; /* IE/Edge */
+    overflow:hidden;
 }
 
 
@@ -308,4 +313,53 @@ main{
     background-size:cover;
     background-position:center;
     overflow:visible;
+}
+
+/* Outer wrapper holds the row and the left/right controls */
+.trending-container{
+    position:relative;
+    display:flex;
+    align-items:center;
+    gap:1rem;
+    overflow:hidden;
+}
+
+/* Arrow pills controls (floating over the row) */
+.slider-control{
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    width:var(--control-size);
+    height:var(--control-size);
+    border-radius: 999px;
+    background:var(--control-bg);
+    color:#fff;
+    border:none;
+    place-items: center;
+    cursor:pointer;
+    z-index:30;
+    box-shadow:0 6px 18px rgba(0,0,0,0.6);
+    transition:transform .12s ease,background .12s ease;
+    font-size:1.25rem;
+    backdrop-filter: blur(4px);
+}
+
+
+.slider-control:active{
+    transform:translateY(-50%) scale(0.98);
+}
+
+
+.slider-control:hover{
+    background:rgba(0,0,0,0.6);
+}
+
+
+/* position left and right */
+.slider-control.prev{
+    left:8px;
+}
+
+.slider-control.next{
+    right:8px;
 }
