@@ -10,14 +10,14 @@ document.addEventListener('DOMContentLoaded', function () {
 
     prev.addEventListener('click', () => {
         row.scrollBy({
-            left: -step,
+            left: -step*4,
             behavior: 'smooth'
         });
     });
 
     next.addEventListener('click', () => {
         row.scrollBy({
-            left: step,
+            left: step*4,
             behavior: 'smooth'
         });
     });
