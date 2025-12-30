@@ -2,7 +2,7 @@
     --netflix-red:#e50914;
     --bg-dark:#000000;
     --text-gray:#b3b3b3;
-    --control-bg:rgba(0,0,0,0.45);
+    --control-bg:rgba(0, 0, 0, 0.45);
     --control-size:48px;
     --poster-gap:1.5rem;
 }
@@ -202,11 +202,13 @@ main{
 .trending-row{
     display:flex;
     gap:2rem;
-    padding:1rem 0;
+    padding:1rem 3.5rem;
     scroll-snap-type:x mandatory;
     scrollbar-width:none; /*Firefox*/
     -ms-overflow-style:none; /* IE/Edge */
     overflow:hidden;
+    width:100%;
+    box-sizing: border-box;
 }
 
 
@@ -322,6 +324,7 @@ main{
     align-items:center;
     gap:1rem;
     overflow:hidden;
+    padding:1rem 3.5rem;
 }
 
 /* Arrow pills controls (floating over the row) */
