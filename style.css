@@ -317,6 +317,44 @@ main{
     overflow:visible;
 }
 
+
+.poster-placeholder#cashero{
+    background-image: url('images/Cashero.jpg');
+    background-size:cover;
+    background-position:center;
+    overflow:visible;
+}
+
+.poster-placeholder#emily{
+    background-image: url('images/emily.jpg');
+    background-size:cover;
+    background-position:center;
+    overflow:visible;
+}
+
+
+.poster-placeholder#dynamite{
+    background-image: url('images/dynamite.jfif');
+    background-size:cover;
+    background-position:center;
+    overflow:visible;
+}
+
+.poster-placeholder#sunny{
+    background-image: url('images/sunny.jpg');
+    background-size:cover;
+    background-position:center;
+    overflow:visible;
+}
+
+.poster-placeholder#aladdin{
+    background-image: url('images/Aladdin.png');
+    background-size:cover;
+    background-position:center;
+    overflow:visible;
+}
+
+
 /* Outer wrapper holds the row and the left/right controls */
 .trending-container{
     position:relative;
