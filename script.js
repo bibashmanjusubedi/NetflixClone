@@ -24,18 +24,19 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
+// FAQ accordion
 const faqItems = document.querySelectorAll('.faq-item');
 
 faqItems.forEach(item => {
-    const btn = item.querySelector('.faq-question');
+  const btn = item.querySelector('.faq-question');
 
-    btn.addEventListener('click',() => {
-        //close others (Netflix style - one open at a time)
-        faqItems.forEach(i => {
-            if(i != item) i.classList.remove('active');
-        });
-
-        // toggle current
-        item.classList.toggle('active');
+  btn.addEventListener('click', () => {
+    // close others (Netflix style – one open at a time)
+    faqItems.forEach(i => {
+      if (i !== item) i.classList.remove('active');
     });
+
+    // toggle current
+    item.classList.toggle('active');
+  });
 });

@@ -542,5 +542,5 @@ main{
 }
 
 .faq-item.active .faq-icon{
-    transform:roate(45deg); /* turns + into × like Netflix */
+    transform:rotate(45deg); /* turns + into × like Netflix */
 }
