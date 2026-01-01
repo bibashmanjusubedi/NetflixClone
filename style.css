@@ -448,6 +448,15 @@ main{
     line-height:1.4;
 }
 
+.reason-card svg{
+    position:absolute;
+    right:1rem;
+    bottom:1rem;
+    width:40px;
+    height:40px;
+    z-index: 2;
+}
+
 
 .reason-card::after{
     content:"";
@@ -460,4 +469,5 @@ main{
     background:radial-gradient(circle at 30% 30%,#ffefc2 0,#ff6a8b 40%,#7f2df5 100%);
     box-shadow:0 0 20px rgba(0,0,0,0.6);
     opacity:0.95;
+    display:none;
 }
