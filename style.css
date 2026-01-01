@@ -547,7 +547,7 @@ main{
 
 
 .secondForm{
-    max-width: 1200px;
+    max-width:1200px;
     margin:0 auto;
     display:flex;
     justify-content: center;
@@ -555,8 +555,9 @@ main{
 
 .secondFormLead{
     margin-bottom: 10px;
+    text-align: center;
 }
 
-.secondForm .secondFormInner #hero-form{
-    max-width: 1200px;
+.secondForm .secondFormInner #hero-second-form{
+    min-width: 700px;
 }
