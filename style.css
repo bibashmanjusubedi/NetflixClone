@@ -606,4 +606,28 @@ main{
     margin-bottom: 26px;
 }
 
+.footer-col{
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+
+.footer-col li{
+    margin: 0 0 12px 0;
+}
+
+.footer-col a{
+    color:#b3b3b3;
+    text-decoration: underline;
+    font-size: 13px;
+    display:inline-block;
+}
+
+.footer-col a:hover,
+.footer-col a:focus{
+    color:#fff;
+    text-decoration: underline;
+    outline:none;
+}
+
 
