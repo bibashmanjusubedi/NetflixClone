@@ -561,3 +561,49 @@ main{
 .secondForm .secondFormInner #hero-second-form{
     min-width: 700px;
 }
+
+/* Container */
+.site-footer{
+    background:#000;
+    color:#b3b3b3;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 14px;
+    line-height:1.35;
+    padding:48px 20px;
+}
+
+
+.footer-inner{
+    max-width: 1100px;
+    margin:0 auto;
+}
+
+
+/* Top contact link */
+.footer-contact{
+    margin: 0 0 28px 0;
+}
+
+.footer-contact .contact-link{
+    color:#b3b3b3;    
+    text-decoration: underline;
+    font-size:15px;
+}
+
+.footer-contact .contact-link:hover,
+.footer-contact .contact-link:focus{
+    color:#fff;
+    text-decoration:underline;
+    outline:none;
+}
+
+
+/* Grid of columns */
+.footer-grid{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:24px 48px;
+    margin-bottom: 26px;
+}
+
+
