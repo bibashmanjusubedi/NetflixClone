@@ -631,3 +631,40 @@ main{
 }
 
 
+/* Language Controls */
+.footer-controls{
+    margin:12px 0 18px 0;
+}
+
+.lang-btn{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    background:transparent;
+    color:#b3b3b3;
+    border:1px solid rgba(179,179,179,0.08);
+    padding:8px 12px;
+    border-radius: 3px;
+    cursor:pointer;
+    font-size: 13px;
+}
+
+
+.lang-btn:hover,
+.lang-btn:focus{
+    color:#b3b3b3;
+    outline:none;
+    border-color: rgba(255,255,255,0.08);
+    box-shadow: 0 0 0 3px rgba(255,255,255,0.02);
+}
+
+
+/* ensure SVG icons inherit color */
+.lang-btn .globe,
+.lang-btn svg{
+    color:currentColor;
+    fill:none;
+}
+
+
+
