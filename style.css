@@ -699,3 +699,27 @@ button:focus-visible{
     outline-offset:2px;
     border-radius: 3px;
 }
+
+
+.footer-controls {
+    position: relative;
+    display: inline-block;
+  }
+
+.lang-dropdown {
+    position: absolute;
+    top: 110%;
+    left: 0;
+    background-color: #000;
+    border: 1px solid #555;
+    padding: 4px 0;
+    border-radius: 4px;
+    min-width: 140px;
+    display: none;           /* hidden by default */
+    z-index: 10;
+  }
+  
+  .lang-dropdown.open {
+    display: block;          /* only visible when .open is present */
+  }
+  
