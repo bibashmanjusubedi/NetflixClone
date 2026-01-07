@@ -703,7 +703,7 @@ button:focus-visible{
 
 .footer-controls {
     position: relative;
-    display: inline-block;
+    display: flex;
   }
 
 .lang-dropdown {
@@ -721,7 +721,10 @@ button:focus-visible{
   
   .lang-dropdown.open {
     display: flex;
+    padding:0 8px;
     justify-content: center;         /* only visible when .open is present */
+    align-items: center;
+    margin:0 auto;
   }
   
 
@@ -741,6 +744,7 @@ button:focus-visible{
     -webkit-appearance: none;
     -moz-appearance:none;
     appearance: none;
+    text-align: center;
   }
 
 
