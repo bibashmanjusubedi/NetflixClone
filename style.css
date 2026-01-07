@@ -709,7 +709,7 @@ button:focus-visible{
 .lang-dropdown {
     position: absolute;
     top: 110%;
-    left: 4px;
+    left: 10px;
     background-color: #0071eb;
     border: 1px solid #555;
     padding: 0;
