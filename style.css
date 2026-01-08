@@ -703,13 +703,13 @@ button:focus-visible{
 
 .footer-controls {
     position: relative;
-    display: flex;
+    display: inline-block;
   }
 
 .lang-dropdown {
     position: absolute;
     top: 110%;
-    left: 10px;
+    left: 50%;
     background-color: #0071eb;
     border: 1px solid #555;
     padding: 0;
@@ -717,6 +717,7 @@ button:focus-visible{
     min-width: 100px;
     display: none;           /* hidden by default */
     z-index: 10;
+    transform:translateX(-50%);
   }
   
   .lang-dropdown.open {
